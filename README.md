@@ -10,3 +10,7 @@ This is a project designed to help people get their businesses started in the Ne
  - [Step into Blacksburg](http://stepintoblacksburg.org/home/work/doing-business/entrepreneurs/start-a-business.html)
  - [Town of Blacksburg](http://www.blacksburg.gov/departments/departments-a-k/financial-services/business-licenses)
  - [Town of Christiansburg](http://www.christiansburg.org/index.aspx?nid=263)
+
+
+### Hack for Change 2016
+As part of our participation in the [Hack for Change/National Day of Civic Hacking](https://www.codeforamerica.org/events/national-day-2016), we're planning to incorporate our work on this project with the [Applying for a Business License](https://www.codeforamerica.org/events/national-day-2016/challenge-applying-for-a-business-license) national challenge.
