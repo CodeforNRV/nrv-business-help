@@ -1,0 +1,164 @@
+<html>
+<head>
+<script src="http://www.google.com/jsapi" type="text/javascript"></script>
+ 
+<script type="text/javascript">google.load("jquery", "1.3.2");</script>
+	<script src="index.js"></script>
+</head>
+<link type="text/css" rel="stylesheet" href="bootstrap.css"/>
+ <link type="text/css" rel="stylesheet" href="index.css"/>
+<body>
+	<div class="col-sm-6 col-sm-offset-3">
+    <h2 .col-md-6> Select the location in which your are interested in starting a business</h2>
+	<select id="town"  >
+				<option disabled selected value="">-- select a location --</option>
+  			 	<option value="Blacksburg">Blacksburg</option>
+  				 <option value="Christiansburg">Christiansburg</option>
+   				<option value="Unicorporated">Unincorporated area (Elliston, McCoy, Riner, Shawsville, etc.)</option>
+   				<option value="Radford">Radford</option>
+			</select> 
+    <div class="container">
+    
+
+		</div>
+		<div id="loc">
+		<div id ="Blacksburg" class="licenes" hidden="true">
+			<H3> Town of Blacksburg</H3>
+			<p>Unlike cities in Virginia, towns are political subdivisions of Virginia counties.  The Town of Blacksburg is a political subdivision of Montgomery County, Virginia and provides certain public services in addition to, or in lieu of, those provided by the County.  Consequently, businesses located within the incorporated Town of Blacksburg are subject to certain Montgomery County and/or Town of Blacksburg taxes. 
+
+<a href="http://yesmontgomeryva.org/content/113/135/529.aspx#BPOL">Descriptions of the major local business taxes levied within the incorporated Town of Blacksburg are here.</a></p>
+
+
+
+		</div>
+
+		<div id = "Christiansburg" class="licenes" hidden="true"><H3> Christiansburg </H3>
+		
+			<p>Unlike cities in Virginia, towns are political subdivisions of Virginia counties.  The Town of Blacksburg is a political subdivision of Montgomery County, Virginia and provides certain public services in addition to, or in lieu of, those provided by the County.  Consequently, businesses located within the incorporated Town of Blacksburg are subject to certain Montgomery County and/or Town of Blacksburg taxes. 
+
+<a href="http://yesmontgomeryva.org/content/113/135/530.aspx#BPOL">Descriptions of the major local business taxes levied within the incorporated Town of Blacksburg are here.</a></p>
+
+
+		</div>
+		
+		<div id = "Unicorporated" hidden="true">
+			<H3> Unicorporated </H3>
+		</div>
+		<div id = "Radford" hidden="true">
+			<H3> Radford </H3>
+		</div>
+		</div>
+
+			<select id="business" hidden="true" >
+				<option disabled selected value="">-- select a type of business --</option>
+  			 	<option value="Food">Food</option>
+  				 <option value="Contractor">Contractor</option>
+   				<option value="BusinessServices">Business Services</option>
+   				<option value="Professional-Services">Professional Services</option>
+			</select> 
+
+				 <div id="biz">
+		<div id ="Food"  hidden="true">
+			<H3> Food </H3>
+			<select id="meals"  >
+				<option disabled selected value="">-- select a type of business --</option>
+  			 	<option value="vendor">Mobile food vendor</option>
+  				 <option value="restruant">Restruant</option>
+   				
+			</select>
+			<div id="vendor" hidden="true">
+				<H2>Mobile food vendor</H2>
+				<p class="Blacksburg" hidden="true">
+					$100 mobile food vendor licenses 
+				</p>
+				Meal tax of 6% in addition to the 5.3% sales tax.
+
+			</div> 
+			<div id="restruant" hidden="true">
+				<H2>Restruant</H2>
+				
+				<div class="Christiansburg" hidden="true">
+					<select id="drinks"  >
+				<option disabled selected value="">-- select the types of beverages you'll be selling --</option>
+				<option value="none">Non-acholic only</option>
+  			 	<option value="beer">Beer only</option>
+  				 <option value="wine">Beer and wine only</option>
+  				  <option value="mixed">Mixed drinks</option>
+   				
+			</select>
+
+			<div id="none" hidden="true">
+				No extra licens is needed.
+			</div>
+			<div id = "beer" hidden="true">
+				<select id="drinkLoc"  >
+				<option disabled selected value="">-- Where is the alchohal being consumed--</option>
+				<option value="onp">on premise</option>
+  			 	<option value="offp">off premise</option>
+  				 <option value="both">both</option></select>
+  				  <p class="onp" hidden="true">$25</p>
+  				  <p class="offp" hidden="true">$25</p>
+  				  <p class="both" hidden="true">$50</p>
+  				  
+			</div>
+			
+			<div id="wine" hidden="true">
+					<select id="drinkLoc"  >
+				<option disabled selected value="">-- Where is the alchohal being consumed--</option>
+				<option value="onp">on premise</option>
+  			 	<option value="offp">off premise</option>
+  				 <option value="both">both</option></select>
+  				  <p class="onp" hidden="true">$37.50</p>
+  				  <p class="offp" hidden="true">$37.50</p>
+  				  <p class="both" hidden="true">$50</p>
+  				  
+  				   
+			</div>
+			
+			<div id="mixed" hidden="true">
+				<select id="seating"  >
+				<option disabled selected value="">-- select your seating capacity --</option>
+				<option value="none">Under 50</option>
+  			 	<option value="beer">50-100</option>
+  				 <option value="wine">101-150</option>
+  				  <option value="mixed">Over 150</option>
+  				  </select>
+				
+			</div>
+			
+
+
+
+
+				</div>
+				Meal tax of 6% in addition to the 5.3% sales tax.
+
+			</div> 
+
+
+
+		</div>
+
+		<div id = "Contractor"  hidden="true"><H3> Contractor</H3>
+		<p class="Blacksburg" hidden="true"> 
+			$.10 per $100 gross receipts <p>
+			<p class="Christiansburg" hidden="true"> 
+			$.13 per $100 gross receipts <p>
+
+
+
+		</div>
+		
+		<div id = "BusinessServices" hidden="true">
+			<H3> Business Services</H3>
+		</div>
+		<div id = "Professional-Services" hidden="true">
+			<H3> Professional Services </H3>
+		</div>
+		</div>
+
+
+</div>
+</body>
+
+</html>
